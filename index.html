@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lan="en">
+<head> 
+  <meta charset="UTF-8"> 
+  <title>Sametin Yakınları</title>
+   <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+ <h1 id="title">Türkiyedeki Ekonomi Hakkındaki Düşünceniz</h1>
+  <p id="description">İlk  projem (ne kadar temel düzeyde bile olsa), bunu   sizlerle paylaşmak istedim. Destekleriniz için  teşekkürler :)</p><br>
+
+ <fieldset><form  id="survey-form">
+<div> <label id="name-label">Adınız/Soyadınız: <input id="name" placeholder="Adınızı Giriniz" required></label><br>
+ 
+<label id="email-label">Elektronik Posta Adresiniz: <input id="email" type="email" placeholder="E-posta adresinizi giriniz" required></label><br>
+ 
+ <label id="number-label">Telefon Numaranız:
+   <input id="number" type="number" min="905000000000" max="905999999999 " placeholder="90 5** *** ****" required></input>
+   </label><br>
+
+<label for="dropdown">Günümüzdeki Türkiye'nin ekonomisini tanımlamak için seçeneklerden bir seçim yapmanızı isteyeceğim. Şimdiden teşekkürler...  <select id="dropdown" required>
+  <option value="option0"></option>
+  <option value="option1">İyi</option>
+  <option value="option2"> İyi sayılır</option>
+  <option value="option3"> Ortalama</option>
+  <option value="option4">Kötüye gidiyor</option>
+  <option value="option5">Kötü</option>
+  <option value="option6">Ekonominin kelimesi bile yok</option>
+   </select>
+  </div> </fieldset>
+</form>
+ 
+ <form id="survey-form">
+ <fieldset>
+ <p> Daha önce ekonominin gidişatı hakkında makale, haber vb. yazılar okudunuz mu?</p> 
+ 
+ <div><input type="radio" id="group1_option1" name="group1" value="option1"> 
+  <label for="group1-Okudum">Okudum</label></div>
+  
+ <div> <input type="radio" id="group1_option2" name="group1" value="option2">
+ <label for="group1-Okumadım"> Okumadım</label><br></div>
+   
+<div><input type="radio" id="group1_option3" name="group1" value="option3">
+<label for="group1-Okuyacağım">Okuyacağım</label><br></div>
+  
+  </fieldset> </div>
+  </form>
+
+<form id="survey-form">
+  <fieldset>
+<p> Sizce günümüzde aşağıdakilerden hangisi & hangileri size göre olması gerektiğinden daha pahalı & fiyatı daha yüksek.</p>
+
+<div> <input type="checkbox" value="choose"><label>Eğitim İhtiyaçları</label><br></div>
+
+<div> <input type="checkbox" value="choose"><label>Sağlık İhtiyaçları</label><br></div>
+
+<div> <input type="checkbox" value="choose"><label>Gıda İhtiyaçları</label><br></div>
+
+<div> <input type="checkbox" value="choose"><label>Faturalar(İnternet,elektrik,doğalgaz vb.)</label><br></div>
+
+<div> <input type="checkbox" value="choose"><label>Vergiler</label><br></div>
+  
+    </fieldset>
+ </form>
+
+  
+  
+   <form id="survey-form">
+  <fieldset>
+ <div><p> Farklı fikir veya düşünceniz varsa benimle paylaşabilirsiniz:</p></div>
+  <label>
+     <textarea>
+ </textarea></label><br>
+    
+    <input id="submit" type="submit">
+    </fieldset>
+ </form>
+</html>
